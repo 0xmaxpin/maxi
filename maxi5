@@ -3,6 +3,7 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip s
 sudo apt install -y curl git jq lz4 build-essential cmake perl automake autoconf libtool wget libssl-dev -y
 sudo apt-get remove nodejs
 sudo apt-get purge nodejs
+
 sudo apt-get autoremove
 sudo rm /etc/apt/keyrings/nodesource.gpg
 sudo rm /etc/apt/sources.list.d/nodesource.list
